@@ -7,6 +7,9 @@ import election.model.Vorzugskandidaten;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Erstellt die Simulierten Daten
+ */
 public class ElectionSimulator {
 
     public int generateRandomNumber() {

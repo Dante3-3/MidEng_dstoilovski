@@ -4,6 +4,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * Simuliert mehrere Wahllokale
+ */
 @Component
 public class SimulationRunner implements CommandLineRunner {
 

@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+/**
+ * Sendet feedback an das JMS Topic
+ */
 @Service
 public class ElectionFeedbackProducer {
 

@@ -3,6 +3,9 @@ package election.services;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
+/**
+ * Empfängt alle Rückmeldungen
+ */
 @Service
 public class FeedbackListener {
 

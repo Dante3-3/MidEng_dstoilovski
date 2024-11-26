@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * GKV - fügt die empfangenen Daten in eine ElectionDataList hinzu
+ */
 @Service
 public class ElectionService {
 

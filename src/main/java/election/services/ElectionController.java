@@ -6,6 +6,9 @@ import election.model.ElectionData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Fürs Web über url Senden
+ */
 @RestController
 @RequestMapping("/election2024")
 public class ElectionController {
