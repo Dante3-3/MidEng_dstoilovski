@@ -26,11 +26,11 @@ public class ElectionSimulator {
 
         ArrayList<Vorzugskandidaten> oevpCandidates = new ArrayList<>();
         oevpCandidates.add(new Vorzugskandidaten("OEVP", 212, "Danilo Stoilovski", generateRandomNumber()));
-        oevpCandidates.add(new Vorzugskandidaten("OEVP", 212, "Daniela Dorian", generateRandomNumber()));
+        oevpCandidates.add(new Vorzugskandidaten("OEVP", 212, "Yannis Sharmer", generateRandomNumber()));
 
         ArrayList<Vorzugskandidaten> fpoeCandidates = new ArrayList<>();
-        fpoeCandidates.add(new Vorzugskandidaten("FPOE", 212, "Wichtiger Mann", generateRandomNumber()));
-        fpoeCandidates.add(new Vorzugskandidaten("FPOE", 212, "Aran Yildirim", generateRandomNumber()));
+        fpoeCandidates.add(new Vorzugskandidaten("FPOE", 212, "Kikel Baum", generateRandomNumber()));
+        fpoeCandidates.add(new Vorzugskandidaten("FPOE", 212, "Sarana Sandip", generateRandomNumber()));
 
         Party party1 = new Party("OEVP", generateRandomNumber(), oevpCandidates);
         Party party2 = new Party("FPOE", generateRandomNumber(), fpoeCandidates);
