@@ -107,3 +107,11 @@ public void start() throws IOException {
     - `int32` (integer).
     - `string` (text).
     - `bool` (boolean).
+
+# Quellen 
+
+https://grpc.github.io/grpc-java/javadoc/io/grpc/ManagedChannel.html [gRPC Javadoc, 2024-11-11]
+
+https://intuting.medium.com/implement-grpc-service-using-java-gradle-7a54258b60b8 [Medium, 2024-11-11]
+
+https://grpc.io/docs/languages/java/basics/ [gRPC Documentation, 2024-11-11]
